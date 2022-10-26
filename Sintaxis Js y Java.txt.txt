@@ -1,0 +1,50 @@
+Sintaxia similares entre Java y Javascript 
+Operadores Simplificados/Compuestos
++=
+-=
+*=
+/=
+%=
+**=
+
+Operadores Aritmeticos
++
+-
+*
+/
+% //Residuo
+** //Exponente 
+
+Operadores de Asignacion
+=
+
+Operadores simpleficados
+
+Operadores de comparacion
+==Revisa el valor sin importar el tipo de datos
+=== Revisa el valor y el tipo
+
+Documentar
+//=Para una linea de comentario
+/**/= Para multiples lineas de comentarios
+
+Operador de Aumento
+++
+Ej: let z= ++a: //Preincremento
+Ej: z=a++; //PosIncremento
+
+Operador de Decremento
+--
+Ej: let z=--a; //Predecremento
+let z=a--; //Posdrecemento
+
+Operador Distinto, diferente(Boolean)
+!= //Comprueba el valor sin revisar el tipo
+!== //Comprueba el valor y tambien el tipo
+
+Operadores Realcionales
+<
+>
+<=
+>=
+
