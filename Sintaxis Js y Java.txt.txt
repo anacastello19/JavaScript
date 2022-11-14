@@ -48,3 +48,7 @@ Operadores Realcionales
 <=
 >=
 
+Operadores Logicos
+and-> && Doble aspesarn
+or -> 
+not ->
