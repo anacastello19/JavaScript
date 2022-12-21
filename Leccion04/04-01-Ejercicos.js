@@ -58,3 +58,67 @@ switch(mes){
     break;
 }
 console.log("El mes " + mes + " cae en la estacion: "+ estacion)
+
+/*
+Const se utiliza para valores constantes que no puedem ser reemplazados 
+*/
+
+const fechaNacimiento=2006;
+console.log(fechaNacimiento);
+//fechaNacimiento=2020
+//console.log(fechaNacimiento)
+
+//Evitar repetir tu codigo
+//Dry don't repeat yourself
+
+let days= 1;
+switch(days){
+    case 1:
+        console.log('Hoy es '+ days);
+        break;
+    case 2:
+        console.log('Hoy es'+ days);
+        break;
+    case 3:
+        console.log('Hoy es '+ days);
+        break;
+    case 4:
+        console.log('Hoy es '+ days);
+        break;
+    case 5:
+        console.log('Hoy es '+ days);
+        break;
+    case 6:
+        console.log('Hoy es '+ days);
+        break;
+    case 7:
+        console.log('Hoy es '+ days);
+        break;
+    default:
+        console.log('Error en el ingreso del dia de la semana');
+        break;
+}
+
+let days2=['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+function getDay(n){
+    if(n<1||n>7){
+        throw new Error('out of range');
+    }
+    return days2[n-1];
+}
+console.log(getDay(3));
+/*
+Hacer un ejercicio similar al que esta
+hecho, pero ahora con los meses del years
+debe hacerlo con estructura swich 
+y luego con la funcion en la opcion mejorada
+*/ 
+
+let month= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'Octuber', 'November', 'December'];
+function getmonth(n){
+    if(n<1||n>12){
+        throw new Error('out of ranger');
+    }
+    return month[n-1];
+}
+console.log(getmonth(5));
